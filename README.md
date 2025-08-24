@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌸 花語日記 (Hana Diary)
 
-## Getting Started
+美しい花の言葉と共に想いを綴る日記アプリケーション
 
-First, run the development server:
+## ✨ 特徴
+
+- **花語の日記**: 8種類の花（桜、薔薇、ひまわり、百合、チューリップ、すみれ、コスモス、菊）から選択して日記を作成
+- **感情記録**: 6つの気持ち（喜び、悲しみ、愛、希望、感謝、平和）を選択可能
+- **検索・フィルター**: タイトル、内容、花の名前で検索、季節でフィルタリング
+- **レスポンシブデザイン**: デスクトップ・モバイル対応
+- **データ永続化**: ローカルストレージによるデータ保存
+- **美しいアニメーション**: Framer Motionによる滑らかな動作
+
+## 🎨 デザイン
+
+- **カラーパレット**: 優しいピンク系色調
+- **タイポグラフィ**: Geistフォント使用
+- **アイコン**: Lucide Reactライブラリ
+- **アニメーション**: 心地よいマイクロインタラクション
+
+## 💻 技術スタック
+
+- **Next.js 15**: App Router、React Server Components
+- **TypeScript**: 型安全な開発
+- **Tailwind CSS**: カスタムCSS変数とユーティリティクラス
+- **Framer Motion**: アニメーションライブラリ
+- **Zod**: スキーマ検証ライブラリ
+- **Lucide React**: アイコンライブラリ
+
+## 🚀 開発環境での起動
 
 ```bash
+# 依存関係をインストール
+npm install
+
+# 開発サーバーを起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ブラウザで [http://localhost:3000](http://localhost:3000) を開いてアプリケーションを確認してください。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📱 使い方
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **新しい日記作成**: 「新しい日記」ボタンをクリック
+2. **花を選ぶ**: 8種類の花から気分に合ったものを選択
+3. **想いを綴る**: タイトルと内容を入力し、その日の気持ちを選択
+4. **日記を保存**: 保存ボタンで日記を記録
+5. **閲覧・編集**: 保存した日記の閲覧、編集、削除が可能
 
-## Learn More
+## 🌸 収録花語
 
-To learn more about Next.js, take a look at the following resources:
+- **桜**: 純潔、精神美、優美な女性
+- **薔薇**: 愛、美、情熱
+- **ひまわり**: 憧れ、忠誠、光輝
+- **百合**: 純粋、威厳、高貴
+- **チューリップ**: 思いやり、博愛、正直な愛
+- **すみれ**: 謙遜、誠実、小さな幸せ
+- **コスモス**: 乙女の真心、調和、平和
+- **菊**: 高貴、高尚、真の愛
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 デプロイ
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+このプロジェクトはVercelでデプロイされています。
 
-## Deploy on Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/shanchiehchiu/hana-diary)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 ライセンス
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License
